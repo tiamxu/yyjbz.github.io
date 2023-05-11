@@ -57,7 +57,7 @@ module.exports = {
 
   // 博客站点信息（首页）
   blogInfo: {
-    blogCreate: '2013-05-06', // 博客创建时间
+    blogCreate: '2021-05-06', // 博客创建时间
     indexView: true,  // 开启首页的访问量和排名统计，默认 true（开启）
     pageView: true,  // 开启文章页的浏览量统计，默认 true（开启）
     mdFileCountType: 'archives',  // 开启文档数。1. archives 获取归档的文档数（默认）。2. 数组 readFileList(['xx']) 排除 xx 目录（可多个，可不传参数），获取其他目录的文档数。提示：readFileList() 获取 docs 下所有的 md 文档（除了 `.vuepress` 和 `@pages` 目录下的文档）

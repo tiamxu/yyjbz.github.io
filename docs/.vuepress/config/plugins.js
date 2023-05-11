@@ -19,18 +19,19 @@ module.exports = [
   'cursor-effects',
   // 全文搜索插件
   // 'fulltext-search',
+   ['fulltext-search'],
   // 全文搜索插件 meilisearch
-  [
-    'vuepress-plugin-meilisearch',
-      {
-          hostUrl: 'https://ms-cea9697b10ca-1961.sgp.meilisearch.io',        // 该 URL 应该能在用户的浏览器上被访问，不能为 localhost
-          apiKey: "899b4f028209df3541c1dd0cd8c0fdd5a7eae31d63580678be233da5bc50e273",
-          indexUid: 'wiki',
-          // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
-          maxSuggestions: 6,                      // 最多显示几个搜索结果
-          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
-      },
-  ],
+  // [
+  //   'vuepress-plugin-meilisearch',
+  //     {
+  //         hostUrl: 'https://ms-cea9697b10ca-1961.sgp.meilisearch.io',        // 该 URL 应该能在用户的浏览器上被访问，不能为 localhost
+  //         apiKey: "899b4f028209df3541c1dd0cd8c0fdd5a7eae31d63580678be233da5bc50e273",
+  //         indexUid: 'wiki',
+  //         // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
+  //         maxSuggestions: 6,                      // 最多显示几个搜索结果
+  //         cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+  //     },
+  // ],
    // 可以添加第三方搜索链接的搜索框（继承原官方搜索框的配置参数）
   //  [
   //   'thirdparty-search',
@@ -125,12 +126,12 @@ module.exports = [
   ],
 
   // 百度统计
-  [
-    'vuepress-plugin-baidu-tongji',
-    {
-      hm: 'f8fd5c4e21ca384b4785396a87bcc468',
-    },
-  ],
+  // [
+  //   'vuepress-plugin-baidu-tongji',
+  //   {
+  //     hm: 'f8fd5c4e21ca384b4785396a87bcc468',
+  //   },
+  // ],
 
   // 提供mermaid图表支持
   'vuepress-plugin-mermaidjs',
@@ -157,19 +158,19 @@ module.exports = [
   //   },
   // ],
 
-  [
-    'vuepress-plugin-vdoing-comment', // 评论
-      {
-        choosen: 'artalk',
-        options: {
-            server: 'https://comment.gopron.online',
-            site: '一眼记不住',
-            disableEmotion: false,
-            disablePreview: false,
-            disablePicture: true
-        }
-      }
-  ],
+  // [
+  //   'vuepress-plugin-vdoing-comment', // 评论
+  //     {
+  //       choosen: 'artalk',
+  //       options: {
+  //           server: 'https://comment.gopron.online',
+  //           site: '一眼记不住',
+  //           disableEmotion: false,
+  //           disablePreview: false,
+  //           disablePicture: true
+  //       }
+  //     }
+  // ],
 
   // 站点地图
   // 'robots', {
