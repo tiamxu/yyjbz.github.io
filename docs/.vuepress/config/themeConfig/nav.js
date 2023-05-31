@@ -25,9 +25,18 @@ module.exports = [
       },
     ]
   },
+  { text: '云原生',link: '/cloud/',
+  items: [
+    { text: 'Docker', link: '/docker/'},
+    { text: 'Kubernetes', link: '/k8s/'},
+  ]
+},
   { text: '专题',link: '/topic/',
     items: [
-      { text: '个人博客', link: '/blog/'},
+      { text: '个人博客搭建教程', link: '/blog/'},
+      { text: 'Jenins系统教程', link: '/jenkins/'},
+      { text: 'DevOps教程', link: '/devops/'},
+      { text: '面试系列知识总结', link: '/ms/'},
     ]
   },
   { text: '编程',link: '/code/',
