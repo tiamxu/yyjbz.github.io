@@ -33,10 +33,12 @@ module.exports = [
 },
   { text: '专题',link: '/topic/',
     items: [
-      { text: '个人博客搭建教程', link: '/blog/'},
       { text: 'Jenins系统教程', link: '/jenkins/'},
-      { text: 'DevOps教程', link: '/devops/'},
       { text: '面试系列知识总结', link: '/ms/'},
+      { text: '面试问题总结', link: '/question/'},
+      { text: 'DevOps教程', link: '/devops/'},
+      { text: '个人博客搭建教程', link: '/blog/'},
+
     ]
   },
   { text: '编程',link: '/code/',
